@@ -23,6 +23,7 @@ body {
   width: 100%;
   height: 100%;
   background: #2f3539;
+  font-weight: 300;
   /* background: -moz-radial-gradient(circle, #2f3539 0%, #1e272e 100%);
     background: -webkit-radial-gradient(circle, #2f3539 0%, #1e272e 100%);
     background: radial-gradient(circle, #2f3539 0%, #1e272e 100%); */
@@ -103,6 +104,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
 }
+
+
 
 
 /*************************** section 1 img and heading End ***********************/
@@ -232,11 +235,18 @@ body:before {
 }
 
 .middle-heading {
-  font-size: 1.5vw;
-  padding-top: 30px;
+  font-size: 3.5vh;
+  padding-top:2em;
   color: #fff;
   /* margin-left: 40px; */
   text-align: center;
+}
+.middle-heading1{
+  padding-top:2em;
+  font-size: 3.5vh;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
 }
 
 .middle-container {
@@ -414,14 +424,12 @@ h2 {
 }
 
 .heading2 {
-  font-size: 5vh;
+  font-size: 3.5vh;
   line-height: normal;
   margin: 2rem auto;
+  padding-top: 2em;
 }
 
-.middle-container2{
-  margin-left: 12em;
-  
 /* 
 .a-box {
   display: inline-block;
@@ -480,5 +488,10 @@ footer {
   .btn {
     width: 80%;
     display: flex;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heading-main{
+    font-size: 9vw !important;
   }
 }
