@@ -432,7 +432,7 @@ a.rotate-box-2:hover {
 .rotate-box-1.square-icon .rotate-box-icon:after,
 .rotate-box-2.square-icon .rotate-box-icon:after {
   content: "";
-  position: absolute;
+  position: relative;
   top: 3px;
   right: 3px;
   bottom: 3px;
