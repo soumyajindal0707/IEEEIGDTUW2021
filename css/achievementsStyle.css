@@ -186,6 +186,7 @@ body:before {
 .card {
   min-height: 60vh;
   height: auto;
+  width: 260px;
 }
 
 .card {
@@ -204,14 +205,16 @@ body:before {
   color: #fff;
 }
 .card-img-top {
-  width: 60%;
-  border-radius: 60%;
+  width: 170px;
+  border-radius: 50%;
   margin: 2rem 20%;
   object-fit:fill;
-  height:12rem;
+  height: 170px;
 }
 .card-text {
   padding-top: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 2vh;
   word-spacing: 5px;
 }
